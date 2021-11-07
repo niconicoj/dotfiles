@@ -45,9 +45,16 @@ key = "l"
 
 [[keybind]]
 command = "Execute"
-value = "$HOME/.config/leftwm/themes/current/rofi/launcher.sh"
+value = "$HOME/.config/leftwm/themes/current/rofi/powermenu.sh"
 modifier = ["modkey"]
 key = "agrave"
+
+[[keybind]]
+command = "Execute"
+value = "brave"
+modifier = ["modkey"]
+key = "F2"
+
 
 [[keybind]]
 command = "MoveToLastWorkspace"
