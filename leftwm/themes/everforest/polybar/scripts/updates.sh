@@ -2,7 +2,10 @@
 
 NOTIFY_ICON=/usr/share/icons/Papirus/32x32/apps/system-software-update.svg
 
-get_total_updates() { UPDATES=$(pacman -Qu 2>/dev/null | wc -l); }
+get_total_updates() { 
+  paru -Sy
+  UPDATES=$(paru -Qu 2>/.log/updates/log | wc -l); 
+}
 
 while true; do
     get_total_updates

@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Iosevka 18";
+	font:							"JetBrainsMono Nerd Font 18";
     show-icons:                     false;
 	icon-theme: 					"Papirus";
     drun-display-format:            "{name}";
@@ -28,6 +28,8 @@ window {
     location:                       east;
     x-offset:                       0;
     y-offset:                       26;
+    border: 0px 0px 0px 2px;
+    border-color:                  	@border;
 }
 
 prompt {
@@ -42,7 +44,7 @@ textbox-prompt-colon {
 	str: 							"System";
 	background-color: 				@border;
 	text-color: 					@background;
-    padding:                        1% 1% 1% 1.8%;
+    padding:                        1% 1% 1% 1.3%;
 }
 
 inputbar {

@@ -4,7 +4,9 @@ workspaces = []
 tags = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 layouts = ["MainAndVertStack", "MainAndHorizontalStack", "MainAndDeck", "GridHorizontal", "EvenHorizontal", "EvenVertical", "Fibonacci", "CenterMain", "CenterMainBalanced", "Monocle", "RightWiderLeftStack", "LeftWiderRightStack"]
 layout_mode = "Workspace"
-scratchpad = []
+scratchpad = [
+  { name = "nvim", value = "tmux -e st & nvim", x = 860, y = 390, height = 300, width = 200},
+]
 disable_current_tag_swap = false
 focus_behaviour = "Sloppy"
 focus_new_windows = true
@@ -110,6 +112,16 @@ key = "l"
 command = "FocusWorkspacePrevious"
 modifier = ["modkey"]
 key = "h"
+
+[[keybind]]
+command = "MoveWindowToPreviousWorkspace"
+modifier = ["modkey", "Shift"]
+key = "h"
+
+[[keybind]]
+command = "MoveWindowToNextWorkspace"
+modifier = ["modkey", "Shift"]
+key = "l"
 
 [[keybind]]
 command = "MoveWindowUp"
