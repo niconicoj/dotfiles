@@ -13,6 +13,10 @@ window {
     padding:    			25px;
     location:               center;
     y-offset:               -2em;
+    border: 2px;
+    border-color: @border;
+    border-radius: 8px;
+
 }
 
 entry {
