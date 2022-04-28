@@ -2,10 +2,23 @@ modkey = "Mod4"
 mousekey = "Mod4"
 workspaces = []
 tags = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-layouts = ["MainAndVertStack", "MainAndHorizontalStack", "MainAndDeck", "GridHorizontal", "EvenHorizontal", "EvenVertical", "Fibonacci", "CenterMain", "CenterMainBalanced", "Monocle", "RightWiderLeftStack", "LeftWiderRightStack"]
+layouts = [
+  "MainAndVertStack",
+  "MainAndHorizontalStack",
+  "MainAndDeck",
+  "GridHorizontal",
+  "EvenHorizontal",
+  "EvenVertical",
+  "Fibonacci",
+  "CenterMain",
+  "CenterMainBalanced",
+  "Monocle",
+  "RightWiderLeftStack",
+  "LeftWiderRightStack",
+]
 layout_mode = "Workspace"
 scratchpad = [
-  { name = "nvim", value = "tmux -e st & nvim", x = 860, y = 390, height = 300, width = 200},
+  { name = "nvim", value = "tmux -e st & nvim", x = 860, y = 390, height = 300, width = 200 },
 ]
 disable_current_tag_swap = false
 focus_behaviour = "Sloppy"
