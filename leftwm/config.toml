@@ -283,3 +283,33 @@ command = "MoveToTag"
 value = "9"
 modifier = ["modkey", "Shift"]
 key = "ccedilla"
+
+[[keybind]]
+command = "Execute"
+value = "polybar-msg action \"#pipewire.hook.1\""
+modifier = []
+key = "XF86XK_AudioRaiseVolume"
+
+[[keybind]]
+command = "Execute"
+value = "polybar-msg action \"#pipewire.hook.2\""
+modifier = []
+key = "XF86XK_AudioLowerVolume"
+
+[[keybind]]
+command = "Execute"
+value = "pamixer -t"
+modifier = []
+key = "XF86XK_AudioMute"
+
+[[keybind]]
+command = "Execute"
+value = "brightnessctl set +10%"
+modifier = []
+key = "XF86XK_MonBrightnessUp"
+
+[[keybind]]
+command = "Execute"
+value = "brightnessctl set 10%-"
+modifier = []
+key = "XF86XK_MonBrightnessDown"
