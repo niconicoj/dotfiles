@@ -19,6 +19,7 @@ vim.g.gruvbox_material_background = 'hard'
 
 -- everforest
 vim.g.everforest_transparent_background = 1
+vim.g.everforest_enable_italic = 1
 vim.g.everforest_background = 'hard'
 
 -- to disable icons and use a minimalist setup, uncomment the following

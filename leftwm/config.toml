@@ -32,7 +32,7 @@ key = "p"
 
 [[keybind]]
 command = "Execute"
-value = "st -e tmux"
+value = "wezterm"
 modifier = ["modkey"]
 key = "Return"
 
