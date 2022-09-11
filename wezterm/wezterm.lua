@@ -30,16 +30,23 @@ local palette = {
 }
 
 return {
-  font = wezterm.font('FiraCode Nerd Font'),
+  font = wezterm.font('JetBrainsMono Nerd Font'),
   font_size = 11.0,
   window_background_opacity = 0.92,
   enable_tab_bar = false,
   window_decorations = "NONE",
   exit_behavior = "Close",
+  window_close_confirmation = "NeverPrompt",
   colors = palette,
+  mouse_bindings = {
+    {
+      event = { Down = { streak = 1, button = 'Middle' } },
+      mods = 'SHIFT',
+      action = act.CopyTo 'ClipboardAndPrimarySelection'
+    }
+  },
   keys = {
     { key = 'v', mods = 'CTRL', action = act.PasteFrom 'Clipboard' },
     { key = 'v', mods = 'CTRL', action = act.PasteFrom 'PrimarySelection' },
-    { key = 'c', mods = 'CTRL', action = act.CopyTo 'ClipboardAndPrimarySelection' },
   }
 }
