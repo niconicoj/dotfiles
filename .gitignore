@@ -4,4 +4,6 @@
 !hypr/**/*
 !/waybar/
 !waybar/**/*
+!/rofi/
+!rofi/**/*
 !/wezterm/

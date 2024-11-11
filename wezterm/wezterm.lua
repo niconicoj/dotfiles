@@ -37,7 +37,6 @@ return {
   enable_tab_bar = false,
   window_decorations = "NONE",
   exit_behavior = "Close",
-  window_background_opacity = 0.95,
-  window_close_confirmation = "NeverPrompt"
+  window_close_confirmation = "NeverPrompt",
+  default_prog = { "/usr/bin/zsh" }
 }
-

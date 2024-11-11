@@ -96,7 +96,7 @@
     },
     "clock": {
         // "timezone": "Europe/Paris",
-	"format": "🕑 {:%H:%M   %d-%m-%Y}",
+	"format": "󰥔 {:%H:%M  %d-%m-%Y}",
 	"tooltip": false
         // "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
