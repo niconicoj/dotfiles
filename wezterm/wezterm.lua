@@ -30,6 +30,8 @@ local palette = {
 }
 
 return {
+  font = wezterm.font('JetBrainsMono Nerd Font'),
+  font_size = 11.0,
   colors = palette,
   enable_wayland = false,
   enable_tab_bar = false,

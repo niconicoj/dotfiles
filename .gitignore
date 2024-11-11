@@ -2,4 +2,6 @@
 !.gitignore
 !/hypr/
 !hypr/**/*
+!/waybar/
+!waybar/**/*
 !/wezterm/
