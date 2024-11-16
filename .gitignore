@@ -6,4 +6,8 @@
 !waybar/**/*
 !/rofi/
 !rofi/**/*
+!/sddm/
+!sddm/**/*
+!/dunst/
+!dunst/**/*
 !/wezterm/
