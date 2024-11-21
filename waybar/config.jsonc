@@ -63,17 +63,17 @@
   },
   "cpu": {
     "format": "{usage:3}% ",
-    "interval": 1,
+    "interval": 3,
     "tooltip": false
   },
   "memory": {
     "format": "{used:4.1f}/{total:3.1f}GiB ",
-    "interval": 1,
+    "interval": 3,
     "tooltip": false
   },
   "disk": {
     "interval": 30,
-    "format": "{specific_used:5.1f}/{specific_total:5.1f} GiB ",
+    "format": "{used}/{total} ",
     "unit": "GB"
   },
   "temperature": {
@@ -87,7 +87,7 @@
   },
   "network": {
     "format": "{bandwidthDownBytes:>8}   {bandwidthUpBytes:>8} ",
-    "interval": 1
+    "interval": 3
   },
   "pulseaudio": {
     "scroll-step": 3,
